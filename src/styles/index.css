@@ -1,12 +1,70 @@
-
-/* 
-
-    You can write your own styles here...
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar {
+    background-color:lightblue;
+    width: 100%;   
+}
+.navbar-collapse {
+    text-align: start;
+}
+.below-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px 50px 20px 50px;
+}
+.jumbotron-container {
+    background-color: lightcoral;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    outline: none;
     
+}
+.jumbotron p {
+    width:75%;
+}
+.card {
+    outline: none;    
+}
+.card-container {
+    display: inline-block;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+    justify-content: space-between;
+    width: 100%;
+    outline: none;
+}
+.column {
+    float: left;
+    padding: 26px;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whole-thang ul {
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    width: 100%;
+}
+.jumbo-btn {
+    background-color: darksalmon;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+   
+}
